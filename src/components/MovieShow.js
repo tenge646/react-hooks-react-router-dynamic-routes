@@ -10,7 +10,7 @@ function MovieShow({ movies }) {
       {selectedMovie ? (
         <div>
           <h3>{selectedMovie.title}</h3>
-          {/* Add other movie details here */}
+         
         </div>
       ) : (
         <div>Movie not found</div>
